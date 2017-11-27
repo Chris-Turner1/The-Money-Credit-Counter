@@ -11,6 +11,7 @@ namespace C.TMoneyCreditCounterB7029165
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// bhasduhagsdgasuydasgy
         [STAThread]
         static void Main()
         {
