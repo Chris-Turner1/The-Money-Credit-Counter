@@ -8,3 +8,13 @@ C:\Users\Student\Documents\BSc Computing\Year 1\Porgramming\C# Assignment\Code\C
 C:\Users\Student\Documents\BSc Computing\Year 1\Porgramming\C# Assignment\Code\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.csproj.CoreCompileInputs.cache
 C:\Users\Student\Documents\BSc Computing\Year 1\Porgramming\C# Assignment\Code\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.exe
 C:\Users\Student\Documents\BSc Computing\Year 1\Porgramming\C# Assignment\Code\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.pdb
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\bin\Debug\C.TMoneyCreditCounterB7029165.exe.config
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\bin\Debug\C.TMoneyCreditCounterB7029165.exe
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\bin\Debug\C.TMoneyCreditCounterB7029165.pdb
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.Form1.resources
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.Properties.Resources.resources
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.csproj.GenerateResource.Cache
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.exe
+C:\Users\Student\Documents\GitHub\The-Money-Credit-Counter\C.TMoneyCreditCounterB7029165\C.TMoneyCreditCounterB7029165\obj\Debug\C.TMoneyCreditCounterB7029165.pdb

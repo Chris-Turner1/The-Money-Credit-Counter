@@ -11,7 +11,7 @@ namespace C.TMoneyCreditCounterB7029165
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        /// bhasduhagsdgasuydasgy
+        /// this is how comments will be used for my code 
         [STAThread]
         static void Main()
         {
