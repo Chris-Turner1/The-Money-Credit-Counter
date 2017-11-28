@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.Pounds = new System.Windows.Forms.TextBox();
             this.Pence = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -46,6 +47,13 @@
             this.TwoPence = new System.Windows.Forms.PictureBox();
             this.OnePence = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.Fifty_pence_label = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.TwoPound_CoinsEntered = new System.Windows.Forms.PictureBox();
             this.OnePound_CoinsEntered = new System.Windows.Forms.PictureBox();
@@ -63,14 +71,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.label16 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.Fifty_pence_label = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TwoPound)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OnePound)).BeginInit();
@@ -119,6 +119,16 @@
             this.groupBox1.Text = "Coins";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(382, 594);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(24, 25);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "p";
+            // 
             // Pounds
             // 
             this.Pounds.Location = new System.Drawing.Point(313, 594);
@@ -144,7 +154,6 @@
             this.label14.Size = new System.Drawing.Size(24, 25);
             this.label14.TabIndex = 14;
             this.label14.Text = "£";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label13
             // 
@@ -155,7 +164,6 @@
             this.label13.Size = new System.Drawing.Size(24, 25);
             this.label13.TabIndex = 13;
             this.label13.Text = "p";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label3
             // 
@@ -291,6 +299,76 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Coins Entered ";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(49, 557);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(134, 32);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "0            X";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(49, 487);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(134, 32);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "0            X";
+            // 
+            // Fifty_pence_label
+            // 
+            this.Fifty_pence_label.AutoSize = true;
+            this.Fifty_pence_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fifty_pence_label.Location = new System.Drawing.Point(49, 405);
+            this.Fifty_pence_label.Name = "Fifty_pence_label";
+            this.Fifty_pence_label.Size = new System.Drawing.Size(134, 32);
+            this.Fifty_pence_label.TabIndex = 16;
+            this.Fifty_pence_label.Text = "0            X";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(49, 332);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(134, 32);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "0            X";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(49, 262);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(134, 32);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "0            X";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(49, 183);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(134, 32);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "0            X";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(49, 102);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 32);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "0 ";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -411,7 +489,6 @@
             this.CostPerCredit.Size = new System.Drawing.Size(57, 22);
             this.CostPerCredit.TabIndex = 7;
             this.CostPerCredit.Text = "0";
-            this.CostPerCredit.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label15
             // 
@@ -422,7 +499,6 @@
             this.label15.Size = new System.Drawing.Size(24, 25);
             this.label15.TabIndex = 6;
             this.label15.Text = "p";
-            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // ResetButton
             // 
@@ -459,92 +535,11 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(382, 594);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(24, 25);
-            this.label16.TabIndex = 18;
-            this.label16.Text = "p";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(49, 102);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 32);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "0 ";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(49, 183);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 32);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "0            X";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(49, 262);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 32);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "0            X";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(49, 332);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 32);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "0            X";
-            // 
-            // Fifty_pence_label
-            // 
-            this.Fifty_pence_label.AutoSize = true;
-            this.Fifty_pence_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Fifty_pence_label.Location = new System.Drawing.Point(49, 405);
-            this.Fifty_pence_label.Name = "Fifty_pence_label";
-            this.Fifty_pence_label.Size = new System.Drawing.Size(134, 32);
-            this.Fifty_pence_label.TabIndex = 16;
-            this.Fifty_pence_label.Text = "0            X";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(49, 487);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(134, 32);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "0            X";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(49, 557);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(134, 32);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "0            X";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 823);
+            this.ClientSize = new System.Drawing.Size(892, 825);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

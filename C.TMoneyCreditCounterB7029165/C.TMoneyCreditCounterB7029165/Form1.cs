@@ -14,6 +14,7 @@ namespace C.TMoneyCreditCounterB7029165
     {
 
         int fiftyPenceCount = 0;
+        int onePenceCount = 0;
 
         public Form1()
         {
@@ -51,6 +52,7 @@ namespace C.TMoneyCreditCounterB7029165
             }
         }
 
+
         private void richTextBox4_TextChanged(object sender, EventArgs e)
         {
 
@@ -58,21 +60,19 @@ namespace C.TMoneyCreditCounterB7029165
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if(CostPerCredit.Text=="0" || CostPerCredit.Text=="")
+            if (CostPerCredit.Text == "0" || CostPerCredit.Text == "")
             {
                 MessageBox.Show("You have not set the cost per credit");
             }
+            else
+            {
+                onePenceCount = onePenceCount + 1;
+                //one
+                //Fifty_pence_label.Text = fiftyPenceCount.ToString();
+            }
 
-        }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label14_Click(object sender, EventArgs e)
-        {
-
+ 
         }
 
         private void FiftyPence_Click(object sender, EventArgs e)
@@ -119,21 +119,6 @@ namespace C.TMoneyCreditCounterB7029165
             {
                 MessageBox.Show("You have not set the cost per credit");
             }
-        }
-
-        private void label16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
