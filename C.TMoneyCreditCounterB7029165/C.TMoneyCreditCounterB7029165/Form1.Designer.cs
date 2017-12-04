@@ -75,9 +75,9 @@
             this.NumberOfCredits = new System.Windows.Forms.TextBox();
             this.CostPerCredit = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.ResetButton = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.ResetButton = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TwoPound)).BeginInit();
@@ -614,17 +614,6 @@
             this.label15.TabIndex = 6;
             this.label15.Text = "p";
             // 
-            // ResetButton
-            // 
-            this.ResetButton.BackColor = System.Drawing.Color.Red;
-            this.ResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResetButton.Location = new System.Drawing.Point(11, 772);
-            this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(476, 50);
-            this.ResetButton.TabIndex = 3;
-            this.ResetButton.Text = "Reset";
-            this.ResetButton.UseVisualStyleBackColor = false;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -644,6 +633,18 @@
             this.label11.Size = new System.Drawing.Size(249, 17);
             this.label11.TabIndex = 0;
             this.label11.Text = "Please Enter the Cost Per Credit ";
+            // 
+            // ResetButton
+            // 
+            this.ResetButton.BackColor = System.Drawing.Color.Red;
+            this.ResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetButton.Location = new System.Drawing.Point(11, 772);
+            this.ResetButton.Name = "ResetButton";
+            this.ResetButton.Size = new System.Drawing.Size(476, 50);
+            this.ResetButton.TabIndex = 3;
+            this.ResetButton.Text = "Reset";
+            this.ResetButton.UseVisualStyleBackColor = false;
+            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
             // contextMenuStrip1
             // 
