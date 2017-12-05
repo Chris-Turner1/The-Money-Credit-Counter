@@ -61,7 +61,7 @@
             this.Twnety_Pence_Label = new System.Windows.Forms.Label();
             this.Ten_Pence_Label = new System.Windows.Forms.Label();
             this.Five_Pence_Label = new System.Windows.Forms.Label();
-            this.Two_Pence_Pence = new System.Windows.Forms.Label();
+            this.Two_Pence_Label = new System.Windows.Forms.Label();
             this.One_Pence_Label = new System.Windows.Forms.Label();
             this.TwoPound_CoinsEntered = new System.Windows.Forms.PictureBox();
             this.OnePound_CoinsEntered = new System.Windows.Forms.PictureBox();
@@ -303,7 +303,7 @@
             this.groupBox2.Controls.Add(this.Twnety_Pence_Label);
             this.groupBox2.Controls.Add(this.Ten_Pence_Label);
             this.groupBox2.Controls.Add(this.Five_Pence_Label);
-            this.groupBox2.Controls.Add(this.Two_Pence_Pence);
+            this.groupBox2.Controls.Add(this.Two_Pence_Label);
             this.groupBox2.Controls.Add(this.One_Pence_Label);
             this.groupBox2.Controls.Add(this.TwoPound_CoinsEntered);
             this.groupBox2.Controls.Add(this.OnePound_CoinsEntered);
@@ -469,15 +469,15 @@
             this.Five_Pence_Label.Text = "0";
             this.Five_Pence_Label.Click += new System.EventHandler(this.Five_Pence_Label_Click);
             // 
-            // Two_Pence_Pence
+            // Two_Pence_Label
             // 
-            this.Two_Pence_Pence.AutoSize = true;
-            this.Two_Pence_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Two_Pence_Pence.Location = new System.Drawing.Point(42, 127);
-            this.Two_Pence_Pence.Name = "Two_Pence_Pence";
-            this.Two_Pence_Pence.Size = new System.Drawing.Size(40, 32);
-            this.Two_Pence_Pence.TabIndex = 12;
-            this.Two_Pence_Pence.Text = "0 ";
+            this.Two_Pence_Label.AutoSize = true;
+            this.Two_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Two_Pence_Label.Location = new System.Drawing.Point(42, 127);
+            this.Two_Pence_Label.Name = "Two_Pence_Label";
+            this.Two_Pence_Label.Size = new System.Drawing.Size(40, 32);
+            this.Two_Pence_Label.TabIndex = 12;
+            this.Two_Pence_Label.Text = "0 ";
             // 
             // One_Pence_Label
             // 
@@ -662,8 +662,10 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Money Credit Store B7029165";
+            this.Text = "Money Credit Counter v2.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -733,7 +735,7 @@
         private System.Windows.Forms.Label Twnety_Pence_Label;
         private System.Windows.Forms.Label Ten_Pence_Label;
         private System.Windows.Forms.Label Five_Pence_Label;
-        private System.Windows.Forms.Label Two_Pence_Pence;
+        private System.Windows.Forms.Label Two_Pence_Label;
         private System.Windows.Forms.Label Times_Label_One_Pence;
         private System.Windows.Forms.Label Times_Label_Two_Pound;
         private System.Windows.Forms.Label Times_Label_One_Pound;

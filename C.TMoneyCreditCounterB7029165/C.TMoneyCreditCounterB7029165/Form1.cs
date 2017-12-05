@@ -17,7 +17,12 @@ namespace C.TMoneyCreditCounterB7029165
         int fiftyPenceCount = 0; // Starts "0" value in fifty pence count 
         int onePenceCount = 0; // Starts "0" value in one pence count
         int twentyPenceCount = 0; // Starts "0" value in twenty pence count
-        int totalnumberofpennies = 0; //Starts "0" value in total number of pennies 
+        int totalnumberofpennies = 0; //Starts "0" value in total number of pennies
+        int twopencecount = 0; //Starts "0" value in two pence count 
+        int fivePenceCount = 0; //Starts "0" value in five pence count 
+        int OnePoundPenceCount = 0; //Starts "0" value in one pound count 
+        int TenPenceCount = 0; //Starts "0" value in ten pence count 
+        int TwoPoundPenceCount = 0; //Starts "0" value in Two pound pence count
 
         public Form1()
         {
@@ -76,6 +81,15 @@ namespace C.TMoneyCreditCounterB7029165
             {
                 MessageBox.Show("You have not set the cost per credit");
             }
+            else
+            {
+                TwoPoundPenceCount = TwoPoundPenceCount + 1; // Increments the total number of two pounds, I have clicked 
+                Two_Pound_Label.Text = TwoPoundPenceCount.ToString(); // Tostring() allows me to display the content in my function 
+                totalnumberofpennies = totalnumberofpennies + 200; // = operator to assign how much I want to increment my two pound by, each time I have clicked on it
+
+                UpdateText(); // this eliminates the need to copy and paste the same code. The division part.  
+
+            }
         }
 
         private void FivePence_Click(object sender, EventArgs e)
@@ -83,6 +97,15 @@ namespace C.TMoneyCreditCounterB7029165
             if (CostPerCredit.Text == "0" || CostPerCredit.Text == "")
             {
                 MessageBox.Show("You have not set the cost per credit");
+            }
+            else
+            {
+                fivePenceCount = fivePenceCount + 1; // Increments the total number of 5 pences, I have clicked 
+                Five_Pence_Label.Text = fivePenceCount.ToString(); // Tostring() allows me to display the content in my function 
+                totalnumberofpennies = totalnumberofpennies + 5; // "=" operator to assign how much I want to increment my 5pence by each time I have click on it
+
+                UpdateText(); // this eliminates the need to copy and paste the same code. The division part.  
+
             }
         }
         // this is known as local code because it is in the class and not outside in public 
@@ -92,6 +115,15 @@ namespace C.TMoneyCreditCounterB7029165
             {
                 MessageBox.Show("You have not set the cost per credit");
             }
+            else
+            {
+                TenPenceCount = TenPenceCount + 1; // increments the total number of 10 pences, I have clicked 
+                Ten_Pence_Label.Text = TenPenceCount.ToString(); // Tostring() allows me to display the content in my function 
+                totalnumberofpennies = totalnumberofpennies + 10; // = operator to assign how much I want to increment my 10 pence by, each time I have click on it
+
+                UpdateText(); // this eliminates the need to copy and paste the same code. The division part.  
+
+            }
         }
 
         private void OnePound_Click(object sender, EventArgs e)
@@ -99,6 +131,15 @@ namespace C.TMoneyCreditCounterB7029165
             if (CostPerCredit.Text == "0" || CostPerCredit.Text == "")
             {
                 MessageBox.Show("You have not set the cost per credit");
+            }
+            else
+            {
+                OnePoundPenceCount = OnePoundPenceCount + 1; // increments the total number of  one pounds, I have clicked 
+                One_Pound_Label.Text = OnePoundPenceCount.ToString(); // Tostring() allows me to display the content from my function 
+                totalnumberofpennies = totalnumberofpennies + 100; // = operator to assign how much I want to increment my one pound by each time I have click on it
+
+                UpdateText(); // this eliminates the need to copy and paste the same code. The division part.  
+
             }
         }
 
@@ -153,6 +194,15 @@ namespace C.TMoneyCreditCounterB7029165
             {
                 MessageBox.Show("You have not set the cost per credit");
             }
+            else
+            {
+                twopencecount = twopencecount + 1; // increments the total number of fifty pences. I have clicked 
+                Two_Pence_Label.Text = twopencecount.ToString(); // Tostring() allows me to display the content in my function 
+                totalnumberofpennies = totalnumberofpennies + 2; // = operator to assign how much I want to increment my 2pence by each time I have click on it
+
+                UpdateText(); // this eliminates the need to copy and paste the same code. The division part.  
+
+            }
         }
 
         private void TwentyPence_Click(object sender, EventArgs e) // object I "click on"
@@ -186,7 +236,7 @@ namespace C.TMoneyCreditCounterB7029165
         private void CostPerCredit_TextChanged(object sender, EventArgs e)
         {
            if(CostPerCredit.Text != "") // if cost per credit is emppty it will do nothing. This is just a safety net   
-                costpercredit = Convert.ToInt32(CostPerCredit.Text); // new cost per credit will update by the value I place into it
+                costpercredit = Convert.ToInt32(CostPerCredit.Text); // new cost per credit will update in number of credis by the value I place into it
         }
 
         private void NumberOfCredits_TextChanged(object sender, EventArgs e)
@@ -234,16 +284,29 @@ namespace C.TMoneyCreditCounterB7029165
         {
             costpercredit = 0; // Display "0" value in cost per credit 
             fiftyPenceCount = 0; // Displays "0" value on number of fifty pence 
-            onePenceCount = 0; // Displays "0" value number of pennies   
-            twentyPenceCount = 0; // Displays twnety pence count at "0" 
-            totalnumberofpennies = 0;
+            onePenceCount = 0; // Displays "0" value in number of pennies   
+            twentyPenceCount = 0; // Displays "0" of twnety pence count 
+            totalnumberofpennies = 0; // Display "0" value in total number of pennies 
+            twopencecount = 0; // Display "0" value of two pence count
+            fivePenceCount = 0; // Display "0" value of five pence count 
+            OnePoundPenceCount = 0; // Display "0" value one pound pence count 
+            TenPenceCount = 0; // Display "0" value ten pence count 
+            TwoPoundPenceCount = 0; // Display "0" value two pound pence count 
 
-            Pence.Text = "0"; // sets pence textbox to "0"
-            Pounds.Text = "0"; // sets pounds textbox to "0"
-            NumberOfCredits.Text = "0"; // sets numberOfCredits text to "0"
-            CostPerCredit.Text = "0"; // sets CostPerCredit to "0" 
-            One_Pence_Label.Text = "0";
-            Twnety_Pence_Label.Text = "0";
+            Pence.Text = "0"; // Resets pence textbox to "0"
+            Pounds.Text = "0"; // Resets pounds textbox to "0"
+            NumberOfCredits.Text = "0"; // Resets numberOfCredits text to "0"
+            CostPerCredit.Text = "0"; // Resets CostPerCredit to "0" 
+            One_Pence_Label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+            Two_Pence_Label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+            Five_Pence_Label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+            Ten_Pence_Label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+            Twnety_Pence_Label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+            Fifty_pence_label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+            One_Pound_Label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+            Two_Pound_Label.Text = "0"; // Telling the label to reset itself to "0" once I clicked reset button
+
+
 
             // the above allows me to reset the the variabls in the text to "0" if I choose to. 
         }
