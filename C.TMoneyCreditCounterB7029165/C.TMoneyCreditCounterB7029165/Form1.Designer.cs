@@ -200,9 +200,9 @@
             // TwoPound
             // 
             this.TwoPound.Image = ((System.Drawing.Image)(resources.GetObject("TwoPound.Image")));
-            this.TwoPound.Location = new System.Drawing.Point(127, 468);
+            this.TwoPound.Location = new System.Drawing.Point(192, 458);
             this.TwoPound.Name = "TwoPound";
-            this.TwoPound.Size = new System.Drawing.Size(115, 99);
+            this.TwoPound.Size = new System.Drawing.Size(159, 130);
             this.TwoPound.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TwoPound.TabIndex = 9;
             this.TwoPound.TabStop = false;
@@ -212,9 +212,9 @@
             // 
             this.OnePound.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.OnePound.Image = ((System.Drawing.Image)(resources.GetObject("OnePound.Image")));
-            this.OnePound.Location = new System.Drawing.Point(127, 350);
+            this.OnePound.Location = new System.Drawing.Point(201, 350);
             this.OnePound.Name = "OnePound";
-            this.OnePound.Size = new System.Drawing.Size(115, 99);
+            this.OnePound.Size = new System.Drawing.Size(138, 102);
             this.OnePound.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OnePound.TabIndex = 6;
             this.OnePound.TabStop = false;
@@ -223,9 +223,9 @@
             // FiftyPence
             // 
             this.FiftyPence.Image = ((System.Drawing.Image)(resources.GetObject("FiftyPence.Image")));
-            this.FiftyPence.Location = new System.Drawing.Point(132, 237);
+            this.FiftyPence.Location = new System.Drawing.Point(185, 224);
             this.FiftyPence.Name = "FiftyPence";
-            this.FiftyPence.Size = new System.Drawing.Size(115, 99);
+            this.FiftyPence.Size = new System.Drawing.Size(165, 134);
             this.FiftyPence.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FiftyPence.TabIndex = 5;
             this.FiftyPence.TabStop = false;
@@ -234,9 +234,9 @@
             // TwentyPence
             // 
             this.TwentyPence.Image = ((System.Drawing.Image)(resources.GetObject("TwentyPence.Image")));
-            this.TwentyPence.Location = new System.Drawing.Point(132, 118);
+            this.TwentyPence.Location = new System.Drawing.Point(205, 118);
             this.TwentyPence.Name = "TwentyPence";
-            this.TwentyPence.Size = new System.Drawing.Size(115, 99);
+            this.TwentyPence.Size = new System.Drawing.Size(123, 108);
             this.TwentyPence.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TwentyPence.TabIndex = 4;
             this.TwentyPence.TabStop = false;
@@ -245,9 +245,9 @@
             // TenPence
             // 
             this.TenPence.Image = ((System.Drawing.Image)(resources.GetObject("TenPence.Image")));
-            this.TenPence.Location = new System.Drawing.Point(-1, 468);
+            this.TenPence.Location = new System.Drawing.Point(2, 463);
             this.TenPence.Name = "TenPence";
-            this.TenPence.Size = new System.Drawing.Size(115, 99);
+            this.TenPence.Size = new System.Drawing.Size(122, 110);
             this.TenPence.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TenPence.TabIndex = 3;
             this.TenPence.TabStop = false;
@@ -256,9 +256,9 @@
             // FivePence
             // 
             this.FivePence.Image = ((System.Drawing.Image)(resources.GetObject("FivePence.Image")));
-            this.FivePence.Location = new System.Drawing.Point(-1, 350);
+            this.FivePence.Location = new System.Drawing.Point(9, 348);
             this.FivePence.Name = "FivePence";
-            this.FivePence.Size = new System.Drawing.Size(115, 99);
+            this.FivePence.Size = new System.Drawing.Size(104, 97);
             this.FivePence.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FivePence.TabIndex = 2;
             this.FivePence.TabStop = false;
@@ -267,9 +267,9 @@
             // TwoPence
             // 
             this.TwoPence.Image = ((System.Drawing.Image)(resources.GetObject("TwoPence.Image")));
-            this.TwoPence.Location = new System.Drawing.Point(0, 237);
+            this.TwoPence.Location = new System.Drawing.Point(3, 224);
             this.TwoPence.Name = "TwoPence";
-            this.TwoPence.Size = new System.Drawing.Size(115, 99);
+            this.TwoPence.Size = new System.Drawing.Size(131, 112);
             this.TwoPence.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TwoPence.TabIndex = 1;
             this.TwoPence.TabStop = false;
@@ -278,9 +278,9 @@
             // OnePence
             // 
             this.OnePence.Image = ((System.Drawing.Image)(resources.GetObject("OnePence.Image")));
-            this.OnePence.Location = new System.Drawing.Point(6, 118);
+            this.OnePence.Location = new System.Drawing.Point(19, 122);
             this.OnePence.Name = "OnePence";
-            this.OnePence.Size = new System.Drawing.Size(115, 99);
+            this.OnePence.Size = new System.Drawing.Size(105, 89);
             this.OnePence.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OnePence.TabIndex = 0;
             this.OnePence.TabStop = false;
@@ -314,22 +314,22 @@
             this.groupBox2.Controls.Add(this.TwoPence_CoinsEntered);
             this.groupBox2.Controls.Add(this.OnePence_CoinsEntered);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(505, 10);
+            this.groupBox2.Location = new System.Drawing.Point(475, 8);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(375, 612);
+            this.groupBox2.Size = new System.Drawing.Size(375, 830);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Tag = "";
-            this.groupBox2.Text = "Coins Entered ";
+            this.groupBox2.Text = "Coins Entered";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // Times_Label_Two_Pound
             // 
             this.Times_Label_Two_Pound.AutoSize = true;
-            this.Times_Label_Two_Pound.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_Two_Pound.Location = new System.Drawing.Point(162, 559);
+            this.Times_Label_Two_Pound.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_Two_Pound.Location = new System.Drawing.Point(135, 739);
             this.Times_Label_Two_Pound.Name = "Times_Label_Two_Pound";
-            this.Times_Label_Two_Pound.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_Two_Pound.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_Two_Pound.TabIndex = 26;
             this.Times_Label_Two_Pound.Text = "X";
             this.Times_Label_Two_Pound.Click += new System.EventHandler(this.label9_Click);
@@ -337,20 +337,20 @@
             // Times_Label_One_Pound
             // 
             this.Times_Label_One_Pound.AutoSize = true;
-            this.Times_Label_One_Pound.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_One_Pound.Location = new System.Drawing.Point(162, 484);
+            this.Times_Label_One_Pound.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_One_Pound.Location = new System.Drawing.Point(135, 622);
             this.Times_Label_One_Pound.Name = "Times_Label_One_Pound";
-            this.Times_Label_One_Pound.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_One_Pound.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_One_Pound.TabIndex = 25;
             this.Times_Label_One_Pound.Text = "X";
             // 
             // Times_Label_Fifty_Pence
             // 
             this.Times_Label_Fifty_Pence.AutoSize = true;
-            this.Times_Label_Fifty_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_Fifty_Pence.Location = new System.Drawing.Point(162, 418);
+            this.Times_Label_Fifty_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_Fifty_Pence.Location = new System.Drawing.Point(135, 491);
             this.Times_Label_Fifty_Pence.Name = "Times_Label_Fifty_Pence";
-            this.Times_Label_Fifty_Pence.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_Fifty_Pence.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_Fifty_Pence.TabIndex = 24;
             this.Times_Label_Fifty_Pence.Text = "X";
             this.Times_Label_Fifty_Pence.Click += new System.EventHandler(this.Times_Label_Fifty_Pence_Click);
@@ -358,50 +358,50 @@
             // Times_Label_Twenty_Pence
             // 
             this.Times_Label_Twenty_Pence.AutoSize = true;
-            this.Times_Label_Twenty_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_Twenty_Pence.Location = new System.Drawing.Point(162, 348);
+            this.Times_Label_Twenty_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_Twenty_Pence.Location = new System.Drawing.Point(135, 387);
             this.Times_Label_Twenty_Pence.Name = "Times_Label_Twenty_Pence";
-            this.Times_Label_Twenty_Pence.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_Twenty_Pence.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_Twenty_Pence.TabIndex = 23;
             this.Times_Label_Twenty_Pence.Text = "X";
             // 
             // Times_Label_Ten_Pence
             // 
             this.Times_Label_Ten_Pence.AutoSize = true;
-            this.Times_Label_Ten_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_Ten_Pence.Location = new System.Drawing.Point(162, 267);
+            this.Times_Label_Ten_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_Ten_Pence.Location = new System.Drawing.Point(135, 297);
             this.Times_Label_Ten_Pence.Name = "Times_Label_Ten_Pence";
-            this.Times_Label_Ten_Pence.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_Ten_Pence.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_Ten_Pence.TabIndex = 22;
             this.Times_Label_Ten_Pence.Text = "X";
             // 
             // Times_Label_Five_Pence
             // 
             this.Times_Label_Five_Pence.AutoSize = true;
-            this.Times_Label_Five_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_Five_Pence.Location = new System.Drawing.Point(162, 197);
+            this.Times_Label_Five_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_Five_Pence.Location = new System.Drawing.Point(135, 208);
             this.Times_Label_Five_Pence.Name = "Times_Label_Five_Pence";
-            this.Times_Label_Five_Pence.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_Five_Pence.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_Five_Pence.TabIndex = 21;
             this.Times_Label_Five_Pence.Text = "X";
             // 
             // Times_Label_Two_Pence
             // 
             this.Times_Label_Two_Pence.AutoSize = true;
-            this.Times_Label_Two_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_Two_Pence.Location = new System.Drawing.Point(162, 130);
+            this.Times_Label_Two_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_Two_Pence.Location = new System.Drawing.Point(135, 107);
             this.Times_Label_Two_Pence.Name = "Times_Label_Two_Pence";
-            this.Times_Label_Two_Pence.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_Two_Pence.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_Two_Pence.TabIndex = 20;
             this.Times_Label_Two_Pence.Text = "X";
             // 
             // Times_Label_One_Pence
             // 
             this.Times_Label_One_Pence.AutoSize = true;
-            this.Times_Label_One_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Times_Label_One_Pence.Location = new System.Drawing.Point(162, 53);
+            this.Times_Label_One_Pence.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Times_Label_One_Pence.Location = new System.Drawing.Point(135, 38);
             this.Times_Label_One_Pence.Name = "Times_Label_One_Pence";
-            this.Times_Label_One_Pence.Size = new System.Drawing.Size(31, 29);
+            this.Times_Label_One_Pence.Size = new System.Drawing.Size(35, 32);
             this.Times_Label_One_Pence.TabIndex = 19;
             this.Times_Label_One_Pence.Text = "X";
             this.Times_Label_One_Pence.Click += new System.EventHandler(this.Times_Label_One_Pence_Click);
@@ -409,30 +409,30 @@
             // Two_Pound_Label
             // 
             this.Two_Pound_Label.AutoSize = true;
-            this.Two_Pound_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Two_Pound_Label.Location = new System.Drawing.Point(42, 556);
+            this.Two_Pound_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Two_Pound_Label.Location = new System.Drawing.Point(42, 739);
             this.Two_Pound_Label.Name = "Two_Pound_Label";
-            this.Two_Pound_Label.Size = new System.Drawing.Size(40, 32);
+            this.Two_Pound_Label.Size = new System.Drawing.Size(53, 44);
             this.Two_Pound_Label.TabIndex = 18;
             this.Two_Pound_Label.Text = "0 ";
             // 
             // One_Pound_Label
             // 
             this.One_Pound_Label.AutoSize = true;
-            this.One_Pound_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.One_Pound_Label.Location = new System.Drawing.Point(42, 484);
+            this.One_Pound_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.One_Pound_Label.Location = new System.Drawing.Point(42, 622);
             this.One_Pound_Label.Name = "One_Pound_Label";
-            this.One_Pound_Label.Size = new System.Drawing.Size(32, 32);
+            this.One_Pound_Label.Size = new System.Drawing.Size(42, 44);
             this.One_Pound_Label.TabIndex = 17;
             this.One_Pound_Label.Text = "0";
             // 
             // Fifty_pence_label
             // 
             this.Fifty_pence_label.AutoSize = true;
-            this.Fifty_pence_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Fifty_pence_label.Location = new System.Drawing.Point(42, 418);
+            this.Fifty_pence_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fifty_pence_label.Location = new System.Drawing.Point(42, 491);
             this.Fifty_pence_label.Name = "Fifty_pence_label";
-            this.Fifty_pence_label.Size = new System.Drawing.Size(32, 32);
+            this.Fifty_pence_label.Size = new System.Drawing.Size(42, 44);
             this.Fifty_pence_label.TabIndex = 16;
             this.Fifty_pence_label.Text = "0";
             this.Fifty_pence_label.Click += new System.EventHandler(this.Fifty_pence_label_Click);
@@ -440,20 +440,20 @@
             // Twnety_Pence_Label
             // 
             this.Twnety_Pence_Label.AutoSize = true;
-            this.Twnety_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Twnety_Pence_Label.Location = new System.Drawing.Point(42, 345);
+            this.Twnety_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Twnety_Pence_Label.Location = new System.Drawing.Point(42, 387);
             this.Twnety_Pence_Label.Name = "Twnety_Pence_Label";
-            this.Twnety_Pence_Label.Size = new System.Drawing.Size(32, 32);
+            this.Twnety_Pence_Label.Size = new System.Drawing.Size(42, 44);
             this.Twnety_Pence_Label.TabIndex = 15;
             this.Twnety_Pence_Label.Text = "0";
             // 
             // Ten_Pence_Label
             // 
             this.Ten_Pence_Label.AutoSize = true;
-            this.Ten_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ten_Pence_Label.Location = new System.Drawing.Point(42, 264);
+            this.Ten_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ten_Pence_Label.Location = new System.Drawing.Point(42, 297);
             this.Ten_Pence_Label.Name = "Ten_Pence_Label";
-            this.Ten_Pence_Label.Size = new System.Drawing.Size(32, 32);
+            this.Ten_Pence_Label.Size = new System.Drawing.Size(42, 44);
             this.Ten_Pence_Label.TabIndex = 14;
             this.Ten_Pence_Label.Text = "0";
             this.Ten_Pence_Label.Click += new System.EventHandler(this.Ten_Pence_Label_Click);
@@ -461,10 +461,10 @@
             // Five_Pence_Label
             // 
             this.Five_Pence_Label.AutoSize = true;
-            this.Five_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Five_Pence_Label.Location = new System.Drawing.Point(42, 194);
+            this.Five_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Five_Pence_Label.Location = new System.Drawing.Point(41, 208);
             this.Five_Pence_Label.Name = "Five_Pence_Label";
-            this.Five_Pence_Label.Size = new System.Drawing.Size(32, 32);
+            this.Five_Pence_Label.Size = new System.Drawing.Size(42, 44);
             this.Five_Pence_Label.TabIndex = 13;
             this.Five_Pence_Label.Text = "0";
             this.Five_Pence_Label.Click += new System.EventHandler(this.Five_Pence_Label_Click);
@@ -472,20 +472,20 @@
             // Two_Pence_Label
             // 
             this.Two_Pence_Label.AutoSize = true;
-            this.Two_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Two_Pence_Label.Location = new System.Drawing.Point(42, 127);
+            this.Two_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Two_Pence_Label.Location = new System.Drawing.Point(41, 107);
             this.Two_Pence_Label.Name = "Two_Pence_Label";
-            this.Two_Pence_Label.Size = new System.Drawing.Size(40, 32);
+            this.Two_Pence_Label.Size = new System.Drawing.Size(53, 44);
             this.Two_Pence_Label.TabIndex = 12;
             this.Two_Pence_Label.Text = "0 ";
             // 
             // One_Pence_Label
             // 
             this.One_Pence_Label.AutoSize = true;
-            this.One_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.One_Pence_Label.Location = new System.Drawing.Point(42, 53);
+            this.One_Pence_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.One_Pence_Label.Location = new System.Drawing.Point(42, 35);
             this.One_Pence_Label.Name = "One_Pence_Label";
-            this.One_Pence_Label.Size = new System.Drawing.Size(48, 32);
+            this.One_Pence_Label.Size = new System.Drawing.Size(64, 44);
             this.One_Pence_Label.TabIndex = 11;
             this.One_Pence_Label.Text = "0  ";
             this.One_Pence_Label.Click += new System.EventHandler(this.One_Pence_Label_Click);
@@ -493,9 +493,9 @@
             // TwoPound_CoinsEntered
             // 
             this.TwoPound_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("TwoPound_CoinsEntered.Image")));
-            this.TwoPound_CoinsEntered.Location = new System.Drawing.Point(224, 537);
+            this.TwoPound_CoinsEntered.Location = new System.Drawing.Point(183, 680);
             this.TwoPound_CoinsEntered.Name = "TwoPound_CoinsEntered";
-            this.TwoPound_CoinsEntered.Size = new System.Drawing.Size(65, 65);
+            this.TwoPound_CoinsEntered.Size = new System.Drawing.Size(154, 146);
             this.TwoPound_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TwoPound_CoinsEntered.TabIndex = 10;
             this.TwoPound_CoinsEntered.TabStop = false;
@@ -504,9 +504,9 @@
             // OnePound_CoinsEntered
             // 
             this.OnePound_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("OnePound_CoinsEntered.Image")));
-            this.OnePound_CoinsEntered.Location = new System.Drawing.Point(224, 466);
+            this.OnePound_CoinsEntered.Location = new System.Drawing.Point(195, 569);
             this.OnePound_CoinsEntered.Name = "OnePound_CoinsEntered";
-            this.OnePound_CoinsEntered.Size = new System.Drawing.Size(65, 65);
+            this.OnePound_CoinsEntered.Size = new System.Drawing.Size(144, 123);
             this.OnePound_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OnePound_CoinsEntered.TabIndex = 7;
             this.OnePound_CoinsEntered.TabStop = false;
@@ -514,9 +514,9 @@
             // FiftyPence_CoinsEntered
             // 
             this.FiftyPence_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("FiftyPence_CoinsEntered.Image")));
-            this.FiftyPence_CoinsEntered.Location = new System.Drawing.Point(224, 393);
+            this.FiftyPence_CoinsEntered.Location = new System.Drawing.Point(190, 454);
             this.FiftyPence_CoinsEntered.Name = "FiftyPence_CoinsEntered";
-            this.FiftyPence_CoinsEntered.Size = new System.Drawing.Size(65, 65);
+            this.FiftyPence_CoinsEntered.Size = new System.Drawing.Size(146, 130);
             this.FiftyPence_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FiftyPence_CoinsEntered.TabIndex = 6;
             this.FiftyPence_CoinsEntered.TabStop = false;
@@ -524,9 +524,9 @@
             // TwentyPence_CoinsEntered
             // 
             this.TwentyPence_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("TwentyPence_CoinsEntered.Image")));
-            this.TwentyPence_CoinsEntered.Location = new System.Drawing.Point(224, 321);
+            this.TwentyPence_CoinsEntered.Location = new System.Drawing.Point(207, 361);
             this.TwentyPence_CoinsEntered.Name = "TwentyPence_CoinsEntered";
-            this.TwentyPence_CoinsEntered.Size = new System.Drawing.Size(65, 66);
+            this.TwentyPence_CoinsEntered.Size = new System.Drawing.Size(115, 100);
             this.TwentyPence_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TwentyPence_CoinsEntered.TabIndex = 5;
             this.TwentyPence_CoinsEntered.TabStop = false;
@@ -534,9 +534,9 @@
             // TenPence_CoinsEntered
             // 
             this.TenPence_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("TenPence_CoinsEntered.Image")));
-            this.TenPence_CoinsEntered.Location = new System.Drawing.Point(224, 250);
+            this.TenPence_CoinsEntered.Location = new System.Drawing.Point(202, 257);
             this.TenPence_CoinsEntered.Name = "TenPence_CoinsEntered";
-            this.TenPence_CoinsEntered.Size = new System.Drawing.Size(65, 66);
+            this.TenPence_CoinsEntered.Size = new System.Drawing.Size(129, 116);
             this.TenPence_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TenPence_CoinsEntered.TabIndex = 4;
             this.TenPence_CoinsEntered.TabStop = false;
@@ -544,9 +544,9 @@
             // FivePence_CoinsEntered
             // 
             this.FivePence_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("FivePence_CoinsEntered.Image")));
-            this.FivePence_CoinsEntered.Location = new System.Drawing.Point(224, 179);
+            this.FivePence_CoinsEntered.Location = new System.Drawing.Point(210, 167);
             this.FivePence_CoinsEntered.Name = "FivePence_CoinsEntered";
-            this.FivePence_CoinsEntered.Size = new System.Drawing.Size(65, 65);
+            this.FivePence_CoinsEntered.Size = new System.Drawing.Size(107, 96);
             this.FivePence_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FivePence_CoinsEntered.TabIndex = 3;
             this.FivePence_CoinsEntered.TabStop = false;
@@ -554,9 +554,9 @@
             // TwoPence_CoinsEntered
             // 
             this.TwoPence_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("TwoPence_CoinsEntered.Image")));
-            this.TwoPence_CoinsEntered.Location = new System.Drawing.Point(224, 108);
+            this.TwoPence_CoinsEntered.Location = new System.Drawing.Point(199, 72);
             this.TwoPence_CoinsEntered.Name = "TwoPence_CoinsEntered";
-            this.TwoPence_CoinsEntered.Size = new System.Drawing.Size(65, 65);
+            this.TwoPence_CoinsEntered.Size = new System.Drawing.Size(132, 102);
             this.TwoPence_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TwoPence_CoinsEntered.TabIndex = 2;
             this.TwoPence_CoinsEntered.TabStop = false;
@@ -564,9 +564,9 @@
             // OnePence_CoinsEntered
             // 
             this.OnePence_CoinsEntered.Image = ((System.Drawing.Image)(resources.GetObject("OnePence_CoinsEntered.Image")));
-            this.OnePence_CoinsEntered.Location = new System.Drawing.Point(224, 37);
+            this.OnePence_CoinsEntered.Location = new System.Drawing.Point(215, 9);
             this.OnePence_CoinsEntered.Name = "OnePence_CoinsEntered";
-            this.OnePence_CoinsEntered.Size = new System.Drawing.Size(65, 65);
+            this.OnePence_CoinsEntered.Size = new System.Drawing.Size(103, 73);
             this.OnePence_CoinsEntered.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OnePence_CoinsEntered.TabIndex = 1;
             this.OnePence_CoinsEntered.TabStop = false;
@@ -581,7 +581,7 @@
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Location = new System.Drawing.Point(8, 653);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(566, 113);
+            this.groupBox3.Size = new System.Drawing.Size(446, 113);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Credits ";
@@ -597,7 +597,7 @@
             // 
             // CostPerCredit
             // 
-            this.CostPerCredit.Location = new System.Drawing.Point(363, 36);
+            this.CostPerCredit.Location = new System.Drawing.Point(282, 36);
             this.CostPerCredit.Name = "CostPerCredit";
             this.CostPerCredit.Size = new System.Drawing.Size(57, 22);
             this.CostPerCredit.TabIndex = 7;
@@ -608,7 +608,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(438, 34);
+            this.label15.Location = new System.Drawing.Point(358, 36);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(24, 25);
             this.label15.TabIndex = 6;
@@ -640,7 +640,7 @@
             this.ResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResetButton.Location = new System.Drawing.Point(11, 772);
             this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(476, 50);
+            this.ResetButton.Size = new System.Drawing.Size(443, 50);
             this.ResetButton.TabIndex = 3;
             this.ResetButton.Text = "Reset";
             this.ResetButton.UseVisualStyleBackColor = false;
@@ -657,7 +657,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(892, 825);
+            this.ClientSize = new System.Drawing.Size(892, 847);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.ResetButton);
